@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f7238b81031550d6",
+        "id": "9279e6fe229752b0",
         "type": "tabs",
         "children": [
           {
-            "id": "34fb1bb6ddacc46f",
+            "id": "1498d094c653ae2e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "e08550ba4ed9db71",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Excel.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "61672d4442878bc8",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Excel"
             }
           }
         ]
@@ -109,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Excel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Excel"
             }
           },
           {
@@ -127,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Excel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Excel"
             }
           },
           {
@@ -152,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Excel.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Excel"
             }
           }
         ]
@@ -174,19 +162,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34fb1bb6ddacc46f",
+  "active": "1498d094c653ae2e",
   "lastOpenFiles": [
+    "Pasted image 20250314043358.png",
+    "Pasted image 20250314043340.png",
+    "Pasted image 20250314043257.png",
+    "Pasted image 20250314042956.png",
+    "Pasted image 20250314042907.png",
+    "Pasted image 20250314042654.png",
+    "Pasted image 20250314042326.png",
+    "Pasted image 20250314042117.png",
+    "Pasted image 20250314041831.png",
+    "Pasted image 20250314041640.png",
+    "Pasted image 20250314040626.png",
     "Excel.md",
-    "Pasted image 20250313042031.png",
-    "Pasted image 20250313041916.png",
-    "Pasted image 20250313041556.png",
-    "Pasted image 20250313041056.png",
-    "Pasted image 20250313035210.png",
-    "Pasted image 20250313035202.png",
-    "Pasted image 20250313035201.png",
-    "Pasted image 20250313035048.png",
-    "Pasted image 20250313034745.png",
-    "Pasted image 20250313034432.png",
     "rango.md"
   ]
 }
