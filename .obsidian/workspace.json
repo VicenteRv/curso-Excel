@@ -40,10 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -154,16 +155,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "1498d094c653ae2e",
   "lastOpenFiles": [
+    "readme.md",
     "Pasted image 20250314043358.png",
     "Pasted image 20250314043340.png",
     "Pasted image 20250314043257.png",
@@ -174,7 +176,6 @@
     "Pasted image 20250314042117.png",
     "Pasted image 20250314041831.png",
     "Pasted image 20250314041640.png",
-    "Pasted image 20250314040626.png",
     "Excel.md",
     "rango.md"
   ]
