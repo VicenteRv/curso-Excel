@@ -122,3 +122,75 @@ obteniendo como resultado, mas columnas con el mismo formato de la tabla princip
 
 ### Video 13: Aplicando formatos a celdas de manera manual
 
+Comenzamos con la parte donde se nos explica que podemos utilizar lo anterior para darle el formato a los datos, pero podemos quitar el tratamiento de la tabla pero manteniendo el formato, para ello vamos a seleccionar nuestra tabla, damos clicl derecha sobre esta, seleccionamos la opcion de tabla y damos en la opcion que sale en convertir en rango
+![[Pasted image 20250315202909.png]]
+y nos pregunta si queremos convertir esa tabla en un rango normal a lo que indicamos que si
+![[Pasted image 20250315202930.png]]
+esto es una forma rapida de agregar formato a nuestras columnas y celdas, pero ahora vamos a tratar de hacerlo de manera manual, para ellos vamos a copiar y pegar la información que ya tenemos en la otra tabla creada y podemos hacer clic derecho y seleccionar la opción de pegar solo los valores para que no venga con el mismo formato de la tabla de abajo
+![[Pasted image 20250315203545.png]]
+o bien una vez seleccionada la parte a copiar con `ctrl + c` vamos a inicio y damos clic en la parte de pegar donde nos saldrán varios tipos y seleccionamos la primera opción de `pegar valores` 
+![[Pasted image 20250315204046.png]]
+Una vez hecho esto vamos a seleccionar todos los títulos de las columnas (id, nombre, apellido, salario...) y nos vamos a la parte de inicio y luego a estilos seleccionando la opción de `estilo de celda`, donde observamos que hay muchos estilos para aplicar.
+![[Pasted image 20250315204834.png]]
+Elegimos el azul de `Énfasis1` y agregamos el estilo de negritas y tenemos algo como lo siguiente
+![[Pasted image 20250315205158.png]]
+ahora seleccionamos toda la segunda fila y volvemos a aplicar un nuevo estilo de celdas para que se parezca a nuestra primera tabla, dejamos una celda sin estilo y nos saltamos a la siguiente hasta obtener algo así
+![[Pasted image 20250315205416.png]]
+Sin embargo podemos notar que es mucho trabajo, sobre todo si tenemos miles de datos, lo mismo aplicando los bordes y dándoles color y tenemos un resultado mas rápido aplicando el formato de tabla que editándolo nosotros mismos
+
+## Video 14: Aplicando Formatos de moneda y fecha
+
+En esta lección vamos a ver varios formatos que podemos aprovechar ya que observamos cuando cambiamos de la tabla a los datos con el puro valor la fecha se modifico y perdimos el formato de la fecha 
+![[Pasted image 20250315210301.png]]
+para ellos seleccionamos todas las celda de fecha y vamos a la parte de inicio>numero y seleccionamos en general para desplegar las opciones y seleccionar fecha
+![[Pasted image 20250315210449.png]]
+Lo mismo para el formato de salario, le aplicamos el formato de moneda y quedaría como se muestra a continuación
+![[Pasted image 20250315210742.png]]
+si por alguna razón estuviéramos manejando otro tipo de moneda, podemos ir a inicio>numero y seleccionar el pequeño recuadro en su esquina inferior derecha
+![[Pasted image 20250315210935.png]]
+al dar clic, se nos desplegara un menú en donde podremos cambiar el símbolo de la moneda que queremos utilizar o su prefijo por ejemplo de moneda mexicana `MXN`
+![[Pasted image 20250315211122.png]]
+y con esto seleccionamos el simbolo de moneda o prefijo y damos e aceptar y veremos los cambios
+![[Pasted image 20250315211519.png]]
+## Video 15: Guardando estilos personalizados
+
+En esta clase vamos a aprender a crear nuestros propios estilos, para ello comenzamos copiando y pegando sin el formato la tabla que nos quedo anteriormente
+![[Pasted image 20250315211824.png]]
+Luego de esto vamos a aplicar un estilo de nuestro agrado a la celda de id o cualquier celda con titulo de preferencia, agregando un tipo de letra, tamaño, bordes, en negritas, color de la letra, color de relleno ... finalmente a mi me quedo asi
+![[Pasted image 20250315212124.png]]
+Después vamos a la parte de inicio>estilos>estilos de celda y seleccionamos hasta abajo de las opciones la que dice nuevo estilo de celda
+![[Pasted image 20250315212249.png]]
+De ahí nos saldrá una ventana donde saldrán cada una de las caracteristicas que le aplicamos a nuestro estilo
+![[Pasted image 20250315212354.png]]
+le ponemos un nombre y en el botón de formato saldrá otra ventana que contendrá toda la información que se ha aplicado y damos clic en aceptar.
+Ahora para aplicar nuestro estilo, seleccionamos las celdas, y vamos a inicio>estilos>estilo de celda y lo encontraremos en la parte de personalizado damos clic sobre el y se aplicara a nuestras celdas seleccionadas
+![[Pasted image 20250315212816.png]]
+Para editar un estilo volvemos a ir a inicio>estilos>estilos de celda y sobre nuestro estilo creado damos clic derecho y nos saldrán opciones y seleccionaremos la de modificar
+![[Pasted image 20250315213149.png]]
+Se nos abrirá la ventana con las características de nuestro estilo, nos vamos a formato y cambiamos lo que deseemos
+![[Pasted image 20250315213301.png]]
+
+> [!Note]
+> Lo mismo se puede hacer con otros estilos ya creados, los podemos editar
+
+## Video 16: Tarea/ejercicio 
+
+Para esta clase se nos va a dejar hacer el siguiente ejercicio
+![[Pasted image 20250315213859.png]]
+y que luzca de esta manera
+![[Pasted image 20250315213959.png]]
+Así que vamos a comenzar cerrando todo y creando una nueva tabla y dándole un nombre al nuevo libro, después de esto vamos a copiar los datos que nos dan hasta febrero y la parte de marzo tiene que ser de manera autocompletada, una vez hecho eso vamos a darle formato de contabilidad a los valores de ventas y gastos y de fecha corta al mes, ya con esto ahora solo vamos a inicio>estilos>estilos de celda y damos un color parecido o lo podemos poner desde inicio>fuente>color de relleno y quedaría así
+![[Pasted image 20250315235456.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
