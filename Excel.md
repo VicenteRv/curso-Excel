@@ -182,6 +182,56 @@ y que luzca de esta manera
 Así que vamos a comenzar cerrando todo y creando una nueva tabla y dándole un nombre al nuevo libro, después de esto vamos a copiar los datos que nos dan hasta febrero y la parte de marzo tiene que ser de manera autocompletada, una vez hecho eso vamos a darle formato de contabilidad a los valores de ventas y gastos y de fecha corta al mes, ya con esto ahora solo vamos a inicio>estilos>estilos de celda y damos un color parecido o lo podemos poner desde inicio>fuente>color de relleno y quedaría así
 ![[Pasted image 20250315235456.png]]
 
+## Sección 4: manejo de celdas, formulas y funciones
+
+### Video 18: Manejo de formulas
+
+Vamos a retomar el archivo de la sección anterior, donde tenemos los campos del mes, ventas y gastos, y le vamos a agregar una nueva columna llamada ganancias, y en sus celdas vamos a poner la formula de las diferencias entre las ventas y los gastos, para comenzar a escribir una formula lo primero que debemos de hacer es escribir el símbolo de `=` y hacer las operaciones entre celdas que ocupemos en este caso es la resta de las celdas
+![[Pasted image 20250317004115.png]]
+por lo que el resultado nos da $50 y para no tener que escribir esa formula en cada celda de esa columna podemos arrastrar esta de la celda que ya la tiene hasta la que necesitamos dando clic y desplazando del recuadro que aparece en la parte inferior derecha de la celda
+![[Pasted image 20250317004407.png]]
+ahora también podemos aplicar esto tanto de manera horizontal como vertical, ahora calcularemos el total de ventas y el total de gastos sumando todas las celdas, ponemos el simbolo de igual y sumamos 1 a 1 las celdas
+![[Pasted image 20250317005129.png]]
+una vez hecho esto se sumaran las celdas y después podemos desplazar esa celda a la derecha para que calcule la parte de gastos
+![[Pasted image 20250317005236.png]]
+posteriormente le damos un estilo a la tabla y nos queda como se muestra a continuación
+![[Pasted image 20250317005416.png]]
+
+### Video 19: Manejo de funciones
+
+Seguiremos trabajando con el archivo anterior pero ahora con la diferencia de que usaremos una [[función]] para realizar lo mismo, ya que si tuviéramos miles de datos seria muy tardado seleccionar dato por dato, para ello primero vamos a seleccionar la celda donde vamos a poner nuestra formula y vamos a la parte de formulas>insertar función 
+![[Pasted image 20250317011108.png]]
+y se nos va a desplegar una ventana en donde podremos buscar las formulas que necesitemos, en este caso la función de suma damos en ir y nos aparecerán diferentes formas de utilizar la suma
+![[Pasted image 20250317011310.png]]
+de igual manera si quisiéramos saber mas de como manipular esta función podemos ir a la documentación dando clic en la parte de `Ayuda sobre esta función` que se encuentra en la parte inferior izquierda de la ventana
+![[Pasted image 20250317011452.png]]
+Después de dar en aceptar nos abrirá una nueva ventana donde podremos agregar las celdas o rangos a sumar, y como se puede ver igual nos da los valores que contiene esa celda antes de sumar todo, damos en aceptar
+![[Pasted image 20250317011927.png]]
+> [!error]
+> El rango en la foto esta mal, ya que solo era hasta la celda B4 y no hasta la B5
+
+Continuando con la función podemos ver que nos da el mismo resultado, y al pasarle la misma formula a la celda de gastos y ganancias
+![[Pasted image 20250317013456.png]]
+
+> [!tip]
+> Podemos hacer lo mismo si solo seleccionamos la celda y escribimos `=SUMA()` y seleccionamos la celda B2, presionando la tecla de `shift` y seleccionamos hasta la celda B4 y presionamos enter
+> ![[Pasted image 20250317013735.png]]
+
+### Video 20: Selección de rangos
+
+En esta lección veremos que cuando seleccionamos algún rango, Excel automáticamente nos arroja información de este rango que hemos seleccionado, por ejemplo si seleccionamos el siguiente rango
+![[Pasted image 20250317014219.png]]
+en la parte inferior, bajo la barra de desplazamiento horizontal podremos encontrar dicha información 
+![[Pasted image 20250317014333.png]]
+que es el promedio, cuantas celdas con valores seleccionamos y la suma de todas ellas, pero podemos agregar mas datos nosotros dando clic derecho sobre esta barra y nos saldrán mas opciones como se muestra a continuación
+![[Pasted image 20250317014707.png]]
+donde podremos habilitar o deshabilitar algunas operaciones que se nos da por default cuando seleccionamos un rango, otra cosa extra sobre los rango es que podemos seleccionar un rango o mas aunque estén separados por una celda, seleccionando primero un rango y después presionando la tecla `ctrl` seleccionar otro rango, además de que si usamos la tecla de `tab` podemos desplazarnos entre las celdas de los rangos seleccionados 
+![[Pasted image 20250317015215.png]]
+
+### Video 21: Precedencia de operadores
+
+Para comprender bien este tema debemos de saber que es la [[precedencia]] 
+
 
 
 
