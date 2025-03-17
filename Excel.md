@@ -69,7 +69,7 @@ A partir de los datos capturados podemos ver que Excel nos puede autocompletar c
 Ahora, si quisiéramos que en lugar de aumentar de 1 en 1 los registros podríamos poner que vaya de 100 en 100 y también nuevamente podría hacerse
 ![[Pasted image 20250314034120.png]]
 
-> [!nota]
+> [!note]
 > Si por alguna razon no se visualizaran certos datos y en lugar de ellos nos aparecieran `###` significa que la celda no tiene el suficiete espacio para mostrar el dato completo por lo que abria que darle mas espacio a esa celda o columna en general
 > 
 ![[Pasted image 20250314034824.png]]
@@ -207,7 +207,7 @@ de igual manera si quisiéramos saber mas de como manipular esta función podemo
 ![[Pasted image 20250317011452.png]]
 Después de dar en aceptar nos abrirá una nueva ventana donde podremos agregar las celdas o rangos a sumar, y como se puede ver igual nos da los valores que contiene esa celda antes de sumar todo, damos en aceptar
 ![[Pasted image 20250317011927.png]]
-> [!error]
+> [!danger]
 > El rango en la foto esta mal, ya que solo era hasta la celda B4 y no hasta la B5
 
 Continuando con la función podemos ver que nos da el mismo resultado, y al pasarle la misma formula a la celda de gastos y ganancias
