@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "89e88ff19a798d59",
+        "id": "b16c272c7a8f7013",
         "type": "tabs",
         "children": [
           {
-            "id": "394b0ec2e41cab83",
+            "id": "eb36df1ef8fb7e56",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,20 +163,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "394b0ec2e41cab83",
+  "active": "eb36df1ef8fb7e56",
   "lastOpenFiles": [
-    "precedencia.md",
+    "Pasted image 20250318044637.png",
+    "Pasted image 20250318044158.png",
+    "Pasted image 20250318043659.png",
+    "Pasted image 20250318043604.png",
+    "Pasted image 20250318043020.png",
+    "Pasted image 20250318042733.png",
+    "Pasted image 20250318042358.png",
+    "Pasted image 20250318042310.png",
     "Excel.md",
-    "Pasted image 20250317015215.png",
-    "Pasted image 20250317014707.png",
-    "Pasted image 20250317014534.png",
-    "Pasted image 20250317014333.png",
-    "Pasted image 20250317014219.png",
-    "Pasted image 20250317013735.png",
-    "Pasted image 20250317013456.png",
-    "Pasted image 20250317011927.png",
-    "Pasted image 20250317011452.png",
-    "Pasted image 20250317011310.png",
+    "referencias relativas-absolutas.md",
+    "referencias relativas/absolutas.md",
+    "referencias relativas",
+    "Pasted image 20250318040235.png",
+    "Pasted image 20250318035931.png",
+    "Pasted image 20250318035639.png",
+    "consolidado de datos.md",
+    "precedencia.md",
     "función.md",
     "readme.md",
     "rango.md"

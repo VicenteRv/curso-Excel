@@ -232,8 +232,88 @@ donde podremos habilitar o deshabilitar algunas operaciones que se nos da por de
 
 Para comprender bien este tema debemos de saber que es la [[precedencia]] 
 
+### Video 22: Mas sobre manejo de celdas
 
+Para comenzar vamos a copiar y pegar los datos de la tabla que venimos manejando para simular 2 tiendas diferentes
+![[Pasted image 20250318024608.png]]
+una vez hecho esto vamos a agregar una nueva fila sobre el nombre de la parte que dice mes, ventas, gastos y ganancias, para poner un titulo a estas, para ello seleccionamos el renglón completo y damos clic derecho para abrir las opciones y seleccionamos en insertar
+![[Pasted image 20250318024953.png]]
+Con esto vamos a agregar un nuevo renglón sobre ambas tablas
+![[Pasted image 20250318025154.png]]
+si quisiéramos que solo se agregue sobre una tabla en especial, seleccionamos el renglón de los títulos de la primera tabla y damos clic derecho para desplegar el menú
+![[Pasted image 20250318025216.png]]
+damos clic en insertar, con esto se nos abrirá una nueva ventana con varias opciones sobre en donde insertar una nueva columna o fila
+![[Pasted image 20250318025421.png]]
+vamos a seleccionar la opción de `Desplazar las celdas hacia abajo` y se nos va a agregar una fila arriba de la primer tabla pero solo de esa misma
+![[Pasted image 20250318030144.png]]
 
+>[!note]
+>Si seleccionamos la opción de `Desplazar celdas hacia la derecha` obtenemos lo siguiete
+>![[Pasted image 20250318025854.png]]
+>Si seleccionamos la opción de `Toda la fila` obtenemos lo siguiente
+>![[Pasted image 20250318030008.png]]
+>Si seleccionamos la opción de `Toda la columna` obtenemos lo siguiente
+>![[Pasted image 20250318030106.png]]
+
+Para eliminar pasa los mismo que con `intertar`, seleccionamos las celdas a eliminar y la acción
+![[Pasted image 20250318030321.png]]
+Ahora le damos un nombre a cada tabla en la fila que agregamos y para que se vea mejor seleccionamos todas las celdas de encima la tabla y vamos a inicio>alineación>combinar y centrar aunque hay mas opciones, elegimos la de combinar y centrar.
+![[Pasted image 20250318030750.png]]
+Con esto podemos observar que le titulo de la primer tabla mejoro ya que todas las celdas seleccionadas se combinaron y se centro el titulo, aplicamos lo mismo para la segunda tabla y le damos un estilo de celda
+![[Pasted image 20250318031117.png]]
+Ahora vamos a agregar una nueva fila para la tabla 1 donde agregaremos el mes de abril automáticamente sin agregar esta a la segunda fila, y como se agrego una nueva fila hay que agregar esta nueva fila a las formulas que ya están.
+![[Pasted image 20250318032231.png]]
+
+### Video 23: Manejar varias hojas
+
+Con las tablas del video pasado ahora vamos a tener una hoja para cada sucursal, para ellos vamos a cambiar el nombre de la hoja actual y agregar una nueva hoja con el nombre de `sucursal2` 
+![[Pasted image 20250318032524.png]]
+una vez hecho esto vamos a pasar la información de la sucursal2 a la hoja 2, cortándola de la primer hoja y pegándola en la segunda utilizando las teclas de `ctrl + x` y `ctrl + v` para pegar esa información
+![[Pasted image 20250318032932.png]]
+ahora con esto ya tenemos dividida nuestra información en dos hojas diferentes 
+
+### Video 24: Manejo de celdas en distintas hojas
+
+Ahora ya con nuestras dos tablas separadas en una hojas vamos a crear una nueva hoja con el total de los gastos, ventas y ganancias de cada una de las sucursales. Para ello nos creamos una nueva hoja que se llamara `totales` 
+![[Pasted image 20250318033619.png]]
+
+>[!note]
+>Para cambiar de hojas en excel podemos usar las teclas de `ctrl + RePág` o `ctrl + AvPág` para poder cambiar de hoja mas rapido
+
+Después de crear la nueva hoja vamos a agregarle la siguiente información
+![[Pasted image 20250318034008.png]]
+y ahora para obtener la información de una hoja diferente vamos s seleccionar la celda donde vamos a poner el valor escribimos el símbolo de `=` y seleccionamos la hoja de donde queremos tomar el dato y después la celda, podemos observar como se selecciona esto con el valor de la hoja y celda separados por un símbolo de admiración
+![[Pasted image 20250318034304.png]]
+y al presionar `ENTER` podemos ver que el dato en la hoja de `totales` cambio al valor que tiene la sucursal 1 en las ventas
+![[Pasted image 20250318034541.png]]
+hacemos esto para las demás celdas, a este tipo de datos se les conoce como [[consolidado de datos]], además le damos algún estilo al gusto y agregamos un nuevo campo llamado total
+![[Pasted image 20250318035639.png]]
+Para automatizar la parte de la suma seleccionamos la celda donde ira el valor de la suma, después de esto vamos a formulas>biblioteca de funciones>autosuma y damos clic sobre este
+![[Pasted image 20250318035931.png]]
+Podemos ver que nos seleccionan todos los datos que están sobre esta celda y los pone dentro de la función de suma, hacemos estos para las otras dos celdas o podemos arrastrar la formula
+![[Pasted image 20250318040235.png]]
+
+### Video 25: Referencias relativas y absolutas
+
+Vamos a comenzar con la parte de [[referencias relativas-absolutas]],comenzamos copiando y pegando el valor del total de ventas de cualquier hoja y pegando el valor en otra parte, pero nos daremos cuenta que que no obtenemos valor alguno ya que esta referenciado como un valor relativo
+![[Pasted image 20250318042310.png]]
+ahora si seleccionamos la celda donde pegamos el valor podemos ver las celdas que esta tomando para realizar la formula de la celda que copiamos
+![[Pasted image 20250318042358.png]]
+si queremos realizar esta suma pero con los valores de cierta columna en este caso el del total de ventas de las sucursales, vamos a editar la formula y vamos a seleccionar el rango de las filas y columnas que deseamos pero con un símbolo de `$` antes de cada letra y numero `$B$2` de esta manera estamos diciendo que siempre tome esas mismas posiciones ósea que los convertimos en una referencia absoluta
+![[Pasted image 20250318042733.png]]
+al dar enter podemos ver que obtenemos el mismo valor que el que aparece en el total de ventas de la tabla, y ahora si copiamos y pegamos esta celda en otro lado obtenemos el mismo valor ya que esta referenciado de manera absoluta
+![[Pasted image 20250318043020.png]]
+
+### Video 26: Comentarios
+
+Para agregar un comentario a una celda, primero seleccionamos la celda en donde queremos agregar este y vamos a revisar>comentarios>nuevo comentario
+![[Pasted image 20250318043604.png]]
+y se nos abrirá una ventana en donde podremos colocar un comentario 
+![[Pasted image 20250318043659.png]]
+Donde igual nos indica quien esta haciendo el comentario, presionamos enter para terminar el comentario, de igual manera si en algún momento necesitamos imprimir estos mensajes del archivo vamos a archivo>imprimir>configurar pagina y aquí seleccionamos la parte de comentarios y notas 
+![[Pasted image 20250318044158.png]]
+donde se nos despliegan esas opciones, si seleccionamos la opción de `como se muestra en la hoja` no nos aparece nada pero si seleccionamos la opcion de `Al final de la hoja` tendremos lo siguiente
+![[Pasted image 20250318044637.png]]
 
 
 
