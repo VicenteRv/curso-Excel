@@ -315,12 +315,67 @@ Donde igual nos indica quien esta haciendo el comentario, presionamos enter para
 donde se nos despliegan esas opciones, si seleccionamos la opción de `como se muestra en la hoja` no nos aparece nada pero si seleccionamos la opcion de `Al final de la hoja` tendremos lo siguiente
 ![[Pasted image 20250318044637.png]]
 
+### Video 27,28,29: Atajos
 
+Atajos basicos
+- Guardar archivo: `ctrl + g`  
+- Abrir archivo: `ctrl + a`
+- Crear un nuevo libro: `ctrl + u`
+- Cerrar archivo: `ctrl + r`
+- Imprimir: `ctrl + p`
+- Cerrar Excel: `alt + f4`
+- Seleccionar una columna: `ctrl + espacio`
+- Seleccionar una fila: `shift + espacio`
+- Agregar una celda: `ctrl + +`
+- Regresar una acción: `ctrl + y` (funciona como si fuera un `ctrl + shitf + z`)
 
+Atajos medios
+- Agregar una columna: `ctrl + espacio` luego `ctrl + +` (seleccionar primero la columna, problemas cuando tenemos una tabla con rangos)
+- Eliminar una columna: `ctrl + espacio` luego `ctrl + -` (seleccionar primero la columna, problemas cuando tenemos una tabla con rangos)
+- Agregar una fila: `shift + espacio` luego `ctrl + +` 
+- Eliminar una fila: `shift + espacio` luego `ctrl + -` 
+- Agregar una columna/fila: `ctrl + +`
+- Eliminar una columna/fila: `ctrl + -` 
+- Cambiar de hoja: `ctrl + AvPág`
+- Regresar a la hoja anterior: `ctrl + RePág`
+- Seleccionar un rango: `ctrl + shift + flecha(arriba-abajo-derecha-izquierda)`
+- Seleccionar todo un rango: `ctrl + e`
+- Seleccionar toda la hoja: `ctrl + e` luego `ctrl + e`
+- Ir al limite derecho: `ctrl + flecha(arriba-abajo-derecha-izquierda)`
+- Zoom: `ctrl + rueda del raton` o `ctrl + ambos dedos en el touchpad deslizando arriba/abajo`
 
+Atajos avanzados
+- Convertir una referencia en absoluta: `F4` 
+> [!Example]
+> Para que esto funcione debemos de dar clic sobre la formula que queremos hacer absoluta
+> ![[Pasted image 20250319022232.png]]
+- Cambiar de libro(si tenemos mas abiertos): `ctrl + F6`
+- Abrir la caja de formato: `ctrl + 1`
+- Ocultar una columna: `ctrl + 0`
 
+Formato de textos
+- Negritas: `ctrl + n`
+- Cursiva: `ctrl + k`
+- Subrayado: `ctrl + s`
 
+### Video 30: Ejercicio control de ingresos-egresos
 
+En este video se nos deja un ejercicio y debemos de replicarlo lo mayor posible con el siguiente diseño y archivos, todo con la fuente de `Dubai`, para la primer hoja llamada `Primer año` tenemos al siguiente estilo y datos
+![[Pasted image 20250319024127.png]]
+Para la siguiente hoja llamada `Reporte mensual primer año` tenemos:
+![[Pasted image 20250319024355.png]]
+Para la siguiente hoja que es lo mismo que la primera pero del segundo año tenemos:
+![[Pasted image 20250319024651.png]]
+![[Pasted image 20250319024706.png]]
+Y finalmente tenemos la ultima hoja llamada `Totales` 
+![[Pasted image 20250319024725.png]]
 
-
-
+Con esta información debemos de recrear todo el documento lo mas parecido alas imágenes, asi que comenzamos
+Para comenzar nos vamos a crear un nuevo libro, si tenemos uno abierto lo guardamos con `ctrl + g` y después para cerrarlo con `ctrl + r`, y para crear un nuevo libro usamos `ctrl + u` ya hecho esto escribimos el titulo de la tabla y centramos y combinamos las celdas como se muestra
+![[Pasted image 20250319025412.png]]
+después seleccionamos toda el libro con `ctrl + e` para aplicar la misma fuente a toda la hoja(Dubái), después para seleccionar el color, seleccionamos la celda a darle color y usamos el atajo de `ctrl + 1`, se nos abrirá una ventana y vamos a la parte de Relleno y a Más colores...
+![[Pasted image 20250319025858.png]]
+Una ves en mas colores vamos a personalizado y agregamos los datos RGB
+![[Pasted image 20250319025954.png]]
+Ya que sabemos como agregar un color con rgb ahora vamos a seguir dando el formato al documento como se ve
+![[Pasted image 20250320022045.png]]
