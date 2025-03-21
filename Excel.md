@@ -379,3 +379,22 @@ Una ves en mas colores vamos a personalizado y agregamos los datos RGB
 ![[Pasted image 20250319025954.png]]
 Ya que sabemos como agregar un color con rgb ahora vamos a seguir dando el formato al documento como se ve
 ![[Pasted image 20250320022045.png]]
+la parte de ingresos se realizo con a función suma de las celdas de monto de la tabla Ingresos
+![[Pasted image 20250321005503.png]]
+al igual que la parte de egresos que es la suma de los datos de la tabla de egresos
+![[Pasted image 20250321005540.png]]
+y a todos los datos de numero se les dio el tipo de formato de `Contabilidad`
+![[Pasted image 20250321005653.png]]
+ya con esto podemos pasar a la segunda hoja que llamaremos `reporte mensual primer año`, y pondremos el siguiente formato, además usaremos la función suma pero para sumar dos valores que se encuentran en la otra hoja como se puede ver, y así mismo sumar los valores de las columnas y filas
+![[Pasted image 20250321010216.png]]
+lo mismo para las otras dos tablas, solo que debemos de actualizar la información que viene par el segundo año y ademas en el reporte del segundo año modificar el valor de la suma de ingresos y egeresos ya que hacen referencia al primer año porque copiamos y pegamos, una vez hecho esto tenemos lo siguiente
+![[Pasted image 20250321011950.png]]
+Segundo año
+![[Pasted image 20250321012012.png]]
+reporte segundo año 
+comenzamos con la parte de totales, dándole el formato asi
+![[Pasted image 20250321012430.png]]
+Ahora que ya tenemos esto podemos usar la función suma para sumar los valores de las dos hojas de cada año para los ingresos, después de seleccionar la celda del primer año escribimos el símbolo de `+` y vamos a la segunda celda y la seleccionamos, una vez seleccionado damos `ENTER`
+![[Pasted image 20250321012643.png]]
+y podremos ver el resultado y la formula, lo mismo aplica para el de egresos y para la parte de saldo total simplemente restamos ambas celdas de totales, obteniendo algo asi
+![[Pasted image 20250321013144.png]]
