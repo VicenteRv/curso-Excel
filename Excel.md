@@ -398,3 +398,136 @@ Ahora que ya tenemos esto podemos usar la función suma para sumar los valores d
 ![[Pasted image 20250321012643.png]]
 y podremos ver el resultado y la formula, lo mismo aplica para el de egresos y para la parte de saldo total simplemente restamos ambas celdas de totales, obteniendo algo asi
 ![[Pasted image 20250321013144.png]]
+
+## Sección 4
+
+### Video 36: Inmovilizar paneles
+
+Para comenzar vamos a descargar un archivo de Excel que ya contiene documentos, este lo adjuntare en la carpeta de `Material` y lleva el nombre de `04-01-ListaDatos-inicial-CUE` 
+La problemática aquí es que a medida de que vamos deslizando hacia abajo perdemos el nombre de las columnas, para ello Excel cuenta con la opción de inmobilizar que se encuentra en vista>ventana>inmovilizar y nos dice su función
+![[Pasted image 20250321014651.png]]
+asi que damos clic ahi, seleccionamos una celda despes de donde queremos que se nos inmovilicen los datos, en este caso sera la celda `B2` ya que esta despues de la fila que queremos mantener y la columna de id que queremos tambien inmovilizar y damos en la primer opcion que dice `inmovilizar paneles`
+![[Pasted image 20250321014747.png]]
+![[Pasted image 20250321015321.png]]
+con esto podemos desplazarnos hacia abajo y seguir mirando el nombre de las columnas
+![[Pasted image 20250321015404.png]]lo mismo sucede cuando nos desplazamos hacia la derecha
+![[Pasted image 20250321015447.png]]
+Para volver a movilizar los paneles seleccionamos la misma opcion
+![[Pasted image 20250321015614.png]]
+y ahora vemos que nos aparece la opción de `movilizar paneles`
+> [!Note]
+> Hay que tener cuidado con que celda esta seleccionada a la hora de realizar esto ya que a partir de esta es de donde se inmovilizan las demás celdas
+
+### Video 37: Ordenamiento de celdas
+
+Para esto seguiremos trabajando con el mismo archivo, para comenzar podremos notar en los datos que no estan ordenados ya sea en roden ascendete o descendente, por letra o fechas etc.
+Para ello tenemos una herramienta en la parte de inicio>edicion>ordenar y filtrar
+![[Pasted image 20250321020157.png]]
+Y si damos clic podemos observar la opciones
+![[Pasted image 20250321020250.png]]
+Por ejemplo si seleccioamos alguna celda de la columna de id y damos en ordenar de menor a mayor
+![[Pasted image 20250321020424.png]]
+podremos ver que se ordenan los numero en forma ascendente
+![[Pasted image 20250321020452.png]]
+también tenemos otra opción en la sección de datos>ordenar y filtrar
+![[Pasted image 20250321020606.png]]
+también podemos ordenar por mas elementos seleccionando en ordenar y nos saldrá una ventana
+![[Pasted image 20250321020734.png]]
+donde podremos elegir por que columna ordenar
+![[Pasted image 20250321020929.png]]
+en este caso seleccionamos por nombre despues elegimos el tipo de ordenamiento que queremos seguir
+![[Pasted image 20250321021026.png]]
+donde nos salen esas opciones pero de momento vamos a trabajar con el valor de las celdas y por ultimo viene el criterio de ordenamiento
+![[Pasted image 20250321021139.png]]
+elegimos la primera opcion y damos en aceptar
+![[Pasted image 20250321021331.png]]
+podemos observar que se ordeno de la A-Z y ahora podemos ordenar también por apellido, por lo que seleccionamos nuevamente el botón de ordenar y ahora vamos a dar clic en `agregar nivel`
+![[Pasted image 20250321021505.png]]
+seleccionamos ahora el campo de apellido y dejamos los mismos valores
+![[Pasted image 20250321021557.png]]
+y damos en aceptar, obteniendo el nombre y apellido ordenados de manera alfabética
+
+### Video 38: Aplicar filtro a una lista
+
+Utilizando el mismo archivo vamos a ver como poder filtrar elementos dentro de la lista, para ello vamos a ir a datos>ordenar y filtrar>filtro
+![[Pasted image 20250321022241.png]]
+Damos clicl sobre este y nos apareceran unos iconos en los nombres de la columnas, presionando estos iconos podemos observar que tenemos las opciones de ordenamiento 
+![[Pasted image 20250321022520.png]]
+Además de que en la parte de abajo podemos filtrar por apellidos, un ejemplo podemos filtrar la columna de nombres por solo algunos como se muestra
+![[Pasted image 20250321022722.png]]
+y al dar aceptar podremos ver que solo nos salen los nombres que queríamos
+![[Pasted image 20250321022823.png]]
+además para borrar un filtro o varios podemos dar clic en borrar
+![[Pasted image 20250321023100.png]]
+que se encuentra al lado del icono de filtro
+Podemos seguir jugando con estas opciones y descubrir sobre filtrar otros datos
+
+### Video 39: Quitar elementos duplicados de una lista
+
+Ahora vamos a ver como eliminar duplicados de una lista ya que en la lista existen varios elementos duplicados, asi que lo primero que debemos de hacer es ordenar los datos y si tuvieramos una columna con datos unicos seria mas sencillo eliminar datos duplicados, por ejemplo la columna de id, para ello vamos a ordenar sus elementos de manera ascendente
+![[Pasted image 20250321024406.png]]
+y podemos observar que tenemos registros duplicados, sin embargo no es o mas opctimo cuando tenemos miles de registros para ello exite una manera mas simple de eliminar elementos duplicados, para ello vamos a la sección de datos>herramientas de datos>quitar duplicados
+![[Pasted image 20250321024716.png]]
+y cuando damos clic nos sale una ventana
+![[Pasted image 20250321024839.png]]
+donde nos pregunta cual es la columna que queremos seleccionar para buscar los elementos duplicados, quitamos todos los elementos y solo seleccionamos el id y dejamos seleccionada la casilla que dice `Mis datos tienen encabezados` para que no tome en cuenta el primer dato que encuentre y lo elimine también, damos clic en acpetar y nos aparece que ha encontrado 8 valores duplicados 
+![[Pasted image 20250321025128.png]]
+y podemos observar que el segundo elemento de 4 ha sido eliminado pero sin borrar el previo a este. Ahora para otra prueba damos `ctrl + z` y vamos a seleccionar el nombre tambien el nombre, agregamos el nombre de JUAN al segundo que ya existia
+![[Pasted image 20250321025357.png]]
+y ahora seleccionamos las columnas de id y nombre
+![[Pasted image 20250321025430.png]]
+damos clic y nos avisa del siguiente mensaje
+![[Pasted image 20250321025450.png]]
+y podemos observar que no elimino las celdas con el id 4 ya que el nombre no se repitió también
+![[Pasted image 20250321025557.png]]
+por eso debemos de tener en consideración que los datos que seleccionemos deben de ser completamente iguales para eliminarlos
+
+### Video 40: Filtro avanzados
+
+Ya sabemos como aplicar un filtro a nuestra listas, sin embargo, la manera en que los aplicamos son de manera individual en cada columna, pero también se pueden aplicar filtros mas complejos que se localizan en datos>ordenar y filtrar>avanzadas
+![[Pasted image 20250321030045.png]]
+y al dar clic nos despliega sus opciones
+![[Pasted image 20250321030247.png]]
+Donde tenemos el rango de nuestra lista pero tambien debemos de tener un rango de criterios, asi que vamos a crearnos uno para poder aplicar el siguiente, en este caso queremos aplicar un filtro a la columna apellido  
+![[Pasted image 20250321030555.png]]
+agregamos una nueva columna y le damos el nombre de la columna y el valor que queremos filtrar, ahora damos clic en la parte de avanzadas nuevamente y seleccionamos en el rango de criterios, la tabla que agregamos de Apellido
+![[Pasted image 20250321030716.png]]
+al dar clic en aceptar se aplican los cambios para el filtro por apellido GONZALEZ
+![[Pasted image 20250321030929.png]]
+Ademas podemos agregar mas filtro, como se muestra
+![[Pasted image 20250321031152.png]]
+> [!Note]
+> Una manera rápida de copiar el valor de una celda es presionar `ctrl` y seleccionar la celda y apuntar hacia su parte inferior hasta que salga el icono de una flechita y podemos arrastrar esa información hasta donde queramos
+
+nuevamente seleccionamos la opcion de avanzadas y seleccionamos el rango de los criterios y damos aceptar
+![[Pasted image 20250321031420.png]]
+y podemos apreciar que si esta filtrando por los valores que se le dio
+![[Pasted image 20250321031513.png]]
+también además de por apellido, podemos agregar la columna de pesos
+![[Pasted image 20250321031738.png]]
+Aplicando para Gonzales el peso de 61 y así sucesivamente, aplicamos el filtro avanzadas y damos estos rangos nuevamente
+![[Pasted image 20250321031853.png]]
+al dar aceptar nos mostrara los que cuenten con estos filtros
+![[Pasted image 20250321031945.png]]
+en este caso solo dos cumplieron los filtros 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
