@@ -511,15 +511,86 @@ al dar aceptar nos mostrara los que cuenten con estos filtros
 ![[Pasted image 20250321031945.png]]
 en este caso solo dos cumplieron los filtros 
 
+## Sección 6
 
+### Video 41: Tablas
 
+Para esta sección vamos a trabajar con el archivo de nombre `05-01-Tabla-inicial-CUE` de la carpeta de `Material`, abrimos el archivo y podemos observar que es una lista de datos, pero ahora vamos a trabajar con el concepto de tablas y vamos a ver las [[diferencias entre una lista y una tabla]], pero para comenzar vamos a transformar una lista a una tabla seleccionando alguna celda dentro de esta y usamos el comando de `ctrl + t` para que excel nos genere la tabla y nos indica el rango de datos donde se encuentra la tabla
+![[Pasted image 20250322033345.png]]
+Podemos observar que esta utilizando referencia absolutas, y además nos pregunta si tenemos encabezados, otra manera de agregar una tabla es yendo a insertar>tablas>tabla 
+![[Pasted image 20250322033945.png]]
+Una vez seleccionado vemos que nos aparece una ventana con los mismo datos del rango de la tabla y pregunta si tenemos un renglón de encabezado, damos clic en aceptar y podemos visualizar que de manera automática se le aplicar un diseño a la tabla y se abre la sección de diseño
+![[Pasted image 20250322034237.png]]
+Una característica de una tabla es que los encabezados de la tabla tienen la propiedad como si los hubiéramos inmovilizado, además podemos notar que también podemos ordenar los datos y aplicar un filtro y por ultimo podemos cambiar el estilo de la tabla en la sección de  diseño>estilos de tabla>estilos rápidos
+![[Pasted image 20250322034727.png]]
+y asi podemos elegir de forma rapido el estilo de nuestra tabla
+![[Pasted image 20250322034838.png]]
+y de manera automática se aplica el diseño a la tabla
 
+### Video 42: Segmentacion de datos de una tabla
 
+Seleccionando cualquier celda de la tabla, se nos despliega la sección de diseño, y tenemos varias opciones
+![[Pasted image 20250322035136.png]]
+por ejemplo cambiar el nombre de la tabla o el tamaño
+![[Pasted image 20250322035231.png]]
+igual tenemos la opción de quitar duplicados (esta función ya la vimos unos videos atrás con el tema de listas), convertir en rango (en el caso de que ya no queramos usar los datos como tabla lo podemos convertir en un rango) 
+![[Pasted image 20250322035549.png]]
+y también tenemos la opción de `insertar segmentacion de datos`
+![[Pasted image 20250322035656.png]]
+Si damos clic en esta, podemos observar que nos aparecen las columnas que tenemos en la tabla y si seleccionamos alguna de estas columnas en este caso la columna de departamento 
+![[Pasted image 20250322035846.png]]
+podemos observar que nos muestra todas las opciones que tiene esa columna de departamento
+![[Pasted image 20250322040016.png]]
+y esta opción nos sirve para filtrar datos, por ejemplo si quereos filtrar por `SISTEMAS` damos clic sobre sistemas y se nos filtrara por este
+![[Pasted image 20250322040207.png]]
+podemos cambiar el filtro simplemente dando clic sobre otra opción
+![[Pasted image 20250322040340.png]]
+o elegir mas de 1 opción presionando `ctrl + clic` sobre la opción que queremos agregar al filtro
+![[Pasted image 20250322040446.png]]
+y podemos ver que se agrego el filtro de `FINANZAS` y `SISTEMAS`, además, podemos agregar varios segmentos en la misma hoja y podemos agregarle un formato a nuestros segmentos, seleccionando el segmento de departamento y vamos a la sección de `segmentación` y podemos ver que en segmentación>estilos de segmentación podemos seleccionar un nuevo estilo para nuestro segmento
+![[Pasted image 20250322041032.png]]
+Ahora vamos a agregar otro segmento yendo a diseño de la tabla>herramientas>insertar segmentación de datos y seleccionamos la nueva columna que queremos agregar (peso(KG))
+![[Pasted image 20250322041323.png]]
+damos en aceptar y ahora vemos que tenemos todas las opciones de peso
+![[Pasted image 20250322041434.png]]
+ahora podemos iniciar el filtrado de datos por departamento y peso como se ve acontinuación y los datos que nos arroja (seleccionamos Finanzas y Sistemas en el segmento de deartamento y en blanco en el segmento de Peso(KG))
+![[Pasted image 20250322041704.png]]
+Para eliminar un segmento simplemente damos clic derecho sobre este y damos en la opción de `Borrar filtro`
+![[Pasted image 20250322042102.png]]
+y dando clic podremos ver que ya no estamos filtrando por un segmento, pero si ya lo queremos borrar simplemente lo seleccionamos y damos en `supr` o con clic derecho y dar en `Quitar "peso(kg)"`
+![[Pasted image 20250322042339.png]]
+y podemos observar que ya se elimino.
+También tenemos mas opciones para aplicar a la tabla en diseño de la tabla>opciones de estilo de tabla 
+![[Pasted image 20250322042730.png]]
+por ejemplo mostrar una fila de totales
+![[Pasted image 20250322042847.png]]
+que muestra una fila al final de la tabla con el numero total de registros (cambia si seleccionamos algún filtro de un segmento)
+![[Pasted image 20250322043340.png]]
 
+### Video 43: Buscar y reemplazar texto
 
-
-
-
+Seguiremos trabajando con el mismo archivo, para ello comenzamos a buscar un texto pulsando las teclas de `ctrl + b`, y escribiendo la palara a buscar en nuestro caso `Finanzas` y damos clic en buscar todos
+![[Pasted image 20250322044551.png]]
+y podemos observar que nos muestra datos de donde se encuentra esa palabra
+![[Pasted image 20250322044719.png]]
+como el libro donde se encuentra ese texto, la hoja, el nombre de la celda y el valor.
+Con esto podemos encontrar un texto dentro de la hoja de calculo, también podemos encontrar textos en diferentes hojas y libros, si damos clic en la parte de buscar siguiente podemos ver que en la tabla se mueve al siguiente resultados encontrado
+![[Pasted image 20250322045127.png]]
+Ahora vamos a ver el caso en el que quisiéramos reemplazar un texto, por ejemplo reemplazar recursos humanos por recursos_humanos, ahora vamos a la parte de reemplazar y no de buscar
+![[Pasted image 20250322045340.png]]
+ahora en la parte de buscar ingresamos la palabra a reemplazar y en la siguiente cajita agregamos el valor que queremos agregar por el anterior
+![[Pasted image 20250322045503.png]]
+y un poco mas abajo nos aparecen estas opciones
+![[Pasted image 20250322045606.png]]
+y damos en reemplazar todos, una vez hecho esto nos saldrá una notificación que nos dira cuantos datos fueron reemplazados
+![[Pasted image 20250322045722.png]]
+Cerramos las pestañas abiertas y podremos ver que fueron modificados esos campos con el nuevo valor
+![[Pasted image 20250322045843.png]]
+ahora si queremos ver la parte avanzada de reemplazar presionamos nuevamente `ctrl + b`, vamos a la opción de reemplazar y en Opciones>>>
+![[Pasted image 20250322050027.png]]
+y podremos ver las opciones mas avanzadas que se tiene para buscar o reemplazar información
+![[Pasted image 20250322050210.png]]
+Por ejemplo buscar información dentro de una hoja o libro, por filas o columnas, por formulas y marcar la opciones de coincidir mayúsculas y minúsculas
 
 
 

@@ -11,14 +11,10 @@
             "id": "eb36df1ef8fb7e56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -163,21 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb36df1ef8fb7e56",
+  "active": "9af1028aba9afc3f",
   "lastOpenFiles": [
-    "Pasted image 20250321031945.png",
-    "Pasted image 20250321031853.png",
-    "Pasted image 20250321031738.png",
-    "Pasted image 20250321031513.png",
-    "Pasted image 20250321031420.png",
-    "Pasted image 20250321031152.png",
-    "Pasted image 20250321030929.png",
-    "Pasted image 20250321030716.png",
-    "Pasted image 20250321030555.png",
-    "Pasted image 20250321030247.png",
-    "Pasted image 20250321030045.png",
     "Excel.md",
+    "Pasted image 20250322050210.png",
+    "Pasted image 20250322050027.png",
+    "Pasted image 20250322045843.png",
+    "Pasted image 20250322045722.png",
+    "Pasted image 20250322045606.png",
+    "Pasted image 20250322045503.png",
+    "Pasted image 20250322045340.png",
+    "Pasted image 20250322045127.png",
+    "Pasted image 20250322044719.png",
+    "Pasted image 20250322044551.png",
+    "Material/~$05-01-Tabla-inicial-CUE.xlsx",
+    "Material/05-01-Tabla-inicial-CUE.xlsx",
     "Material/04-01-ListaDatos-inicial-CUE.xlsx",
+    "diferencias entre una lista y una tabla.md",
+    "Material/05-01-TablasExcel-CUE.xlsx",
     "Material",
     "referencias relativas-absolutas.md",
     "referencias relativas/absolutas.md",
