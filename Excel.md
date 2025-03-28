@@ -279,6 +279,7 @@ Ahora ya con nuestras dos tablas separadas en una hojas vamos a crear una nueva 
 
 >[!note]
 >Para cambiar de hojas en excel podemos usar las teclas de `ctrl + RePág` o `ctrl + AvPág` para poder cambiar de hoja mas rapido
+>En algunas podria tener que agregarse la tecla `fn` siendo ahora `ctrl + fn + RePág` o `ctrl + fn + AvPág`
 
 Después de crear la nueva hoja vamos a agregarle la siguiente información
 ![[Pasted image 20250318034008.png]]
@@ -592,13 +593,50 @@ y podremos ver las opciones mas avanzadas que se tiene para buscar o reemplazar 
 ![[Pasted image 20250322050210.png]]
 Por ejemplo buscar información dentro de una hoja o libro, por filas o columnas, por formulas y marcar la opciones de coincidir mayúsculas y minúsculas
 
+### Video 44: Validación de datos usando una lista
 
-
-
-
-
-
-
-
-
+Lo que vamos a hacer en esta clase es validar las celdas de una lista para que solo se puedan ingresar ciertos datos, un ejemplo es que por error escribamos una palabra y se nos valla un numero de mas etc.
+Para ello primero seleccionamos la celda, en este caso vamos a trabajar con la parte de los departamentos.
+![[Pasted image 20250328145208.png]]
+Después vamos a datos>Herramientas de datos>validación de datos
+![[Pasted image 20250328145350.png]]
+damos clic y nos sale una ventana en donde tenemos 3 opciones diferentes
+![[Pasted image 20250328150102.png]]
+seleccionamos la opción de `validación de datos` y nos sale una nueva
+![[Pasted image 20250328150224.png]]
+vemos que tenemos los criterios para realizar la validación, pero por default en Excel cualquier celda puede permitir cualquier valor y si queremos restringir el valor que un usuario puede asignarle a una celda podemos agregarle una restricción donde clic sobre el spinner debajo de permitir
+![[Pasted image 20250328150522.png]]
+Donde se nos muestran las restricciones que podemos aplicarle a una celda incluso una validación personalizada ahora vamos a agregar una validación de tipo lista
+![[Pasted image 20250328150739.png]]
+Dejamos seleccionadas la opciones que nos aparecen , además agregaos las opciones que el usuario puede seleccionar escribiéndolas en la parte de origen
+![[Pasted image 20250328151120.png]]
+damos clic en aceptar y podemos ver que la celda ya tiene una validación
+![[Pasted image 20250328151209.png]]
+presionamos el icono de la flechita hacia abajo 
+![[Pasted image 20250328151244.png]]
+y podemos observar que se despliegan las dos opciones que colocamos en la parte de origen, pero no podemos introducir un dato distinto a esos valores ya que si lo hacemos recibiremos esta alerta
+![[Pasted image 20250328151414.png]]
+ahora para aplicar esto a todos los demás campos, no podemos copiar y arrastrar la celda ya que pasa lo siguiente
+![[Pasted image 20250328151710.png]]
+todos nuestros campos obtienen el valor de finanzas, para esto seleccionamos las celdas faltantes con `ctrl + shit + flecha abajo` a partir de la siguiente celda que ya tiene las restricciones y vamos nuevamente a la parte de validación de datos, le damos el criterio de validación de lista y escribimos los valores validos de la lista
+![[Pasted image 20250328152049.png]]
+damos clic en aceptar y ahora podemos ver que no nos borro ningún dato y respeto los que ya teníamos
+![[Pasted image 20250328152149.png]]
+por ultimo vamos a tomar información de esa lista desde otra hoja, para ello nos creamos la nueva hoja llamada `DEPARTAMENTO`
+> [!SUMMARY]
+> Básicamente en lugar de escribir en origen las palabras, nos creamos un a nueva hoja en donde vamos a colocar todo los departamentos que hay para tomarlo de ahi en vez de estarlos escribiendo cada vez
+ 
+![[Pasted image 20250328153053.png]]
+Podemos agregar mas opciones, pero de momento solo vamos a tener estas, guardamos los cambios y regresamos a la hoja anterior, y ahora en vez de agregar directamente los valores, vamos a tomarlos de la nueva hoja, seleccionamos todas las celdas de esa columna, vamos a la parte de datos>herramientas de datos>validar datos
+![[Pasted image 20250328153623.png]]
+como de momento ya teníamos validaciones nos saldrá esa notificación y damos en aceptar para que se elimine la configuración actual, damos la restricción de lista
+![[Pasted image 20250328153812.png]]
+y ahora damos clic en el icono de la flechita y seleccionamos los campos que tenemos en la hoja de `DEPARTAMENTOS`
+![[Pasted image 20250328153940.png]]
+damos enter y podemos ver las celdas que seleccionamos y ya no los valores
+![[Pasted image 20250328154025.png]]
+igual en las pestañas de `Mensaje de entrada` y  `Mensaje de error` podemos personalizar los mensajes que se mandan al usuario, en caso de error en la validación a mandar un mensaje extra en el mensaje de entrada de validación de datos, de momento no lo vamos a ver a fondo y damos enter, para aplicar los cambios 
+![[Pasted image 20250328154436.png]]
+y ahora si seleccionamos la opción de las celdas para desplegar la lista podemos ver los valores que obtenemos de la hoja de  `DEPARTAMENTOS`
+![[Pasted image 20250328154613.png]]
 

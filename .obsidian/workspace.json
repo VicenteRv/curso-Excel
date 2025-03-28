@@ -11,10 +11,14 @@
             "id": "eb36df1ef8fb7e56",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Excel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -151,32 +155,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9af1028aba9afc3f",
+  "active": "eb36df1ef8fb7e56",
   "lastOpenFiles": [
-    "Excel.md",
-    "Pasted image 20250322050210.png",
-    "Pasted image 20250322050027.png",
-    "Pasted image 20250322045843.png",
-    "Pasted image 20250322045722.png",
-    "Pasted image 20250322045606.png",
-    "Pasted image 20250322045503.png",
-    "Pasted image 20250322045340.png",
-    "Pasted image 20250322045127.png",
-    "Pasted image 20250322044719.png",
-    "Pasted image 20250322044551.png",
+    "Material/20E13100",
+    "Pasted image 20250328154613.png",
+    "Pasted image 20250328154436.png",
+    "Pasted image 20250328154025.png",
+    "Pasted image 20250328153940.png",
+    "Pasted image 20250328153812.png",
+    "Pasted image 20250328153623.png",
+    "Pasted image 20250328153053.png",
+    "Pasted image 20250328152149.png",
+    "Pasted image 20250328152049.png",
+    "Pasted image 20250328151710.png",
+    "diferencias entre una lista y una tabla.md",
     "Material/~$05-01-Tabla-inicial-CUE.xlsx",
     "Material/05-01-Tabla-inicial-CUE.xlsx",
+    "Excel.md",
     "Material/04-01-ListaDatos-inicial-CUE.xlsx",
-    "diferencias entre una lista y una tabla.md",
-    "Material/05-01-TablasExcel-CUE.xlsx",
     "Material",
     "referencias relativas-absolutas.md",
     "referencias relativas/absolutas.md",
