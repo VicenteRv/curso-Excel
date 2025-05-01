@@ -640,3 +640,79 @@ igual en las pestañas de `Mensaje de entrada` y  `Mensaje de error` podemos per
 y ahora si seleccionamos la opción de las celdas para desplegar la lista podemos ver los valores que obtenemos de la hoja de  `DEPARTAMENTOS`
 ![[Pasted image 20250328154613.png]]
 
+## Seccion 7
+
+### Video 45: Impresión (encabezado y pie de pagina)
+
+En esta lección vamos a usar un archivo que descargamos del curso con el nombre de `06-01-OpcionesImpresion-CUE-inicial.xlsx` que podemos encontrar en la parte de la carpeta de `Material`, para comenzar observamos unos iconos en la parte inferior derecha que son las vistas de impresión como se muestra en la siguiente imagen
+![[Pasted image 20250410211057.png]]
+Son los 3 iconos como cuadritos, si seleccionamos alguno diferente al ya seleccionado podemos ver que la vista cambia, por ejemplo al dar clic al siguiente icono la vista nos va a cambiar a la siguiente manera
+![[Pasted image 20250410211218.png]]
+y tenemos una visualización de como se va a ver nuestra impresión en hoja de Excel, y podemos ver que nos aparecen dos apartados que tienen la leyenda `agregar encabezado/agregar pie de pagina`, en esta lección nos vamos a centrar en configurar algunas de las opciones para la impresión de la hoja, así que vamos a ir a insertar>texto>Encabezado de pie de pagina
+![[Pasted image 20250428155852.png]]
+damos clic y veremos que se nos habilitan mas opciones para el encabezado y pie de pagina
+![[Pasted image 20250428160257.png]]
+ahora podemos ver que al querer escribir en el encabezado este se divide en 3 partes
+![[Pasted image 20250428160453.png]]
+y en cada una de estas secciones se puede agregar información, por ejemplo las que se muestran en Encabezado de pie de pagina>elementos de encabezado de pie de pagina
+![[Pasted image 20250428160734.png]]
+ahora en la división de en medio vamos a poner la opción de nombre del archivo y veremos que se agrega una variable 
+![[Pasted image 20250428161032.png]]
+pero si damos clic en otra parte veremos el nombre del archivo
+![[Pasted image 20250428161117.png]]
+ahora si vamos a la parte del pie de pagina tendremos las de mismas divisiones y le podemos seleccionar los mismo elementos que al encabezado, en este ejemplo vamos a agregar en la parte de en medio la parte de numero de pagina
+![[Pasted image 20250428161451.png]]
+pero si quisiéramos poner el numero de pagina del total de las paginas escribimos `de` y seleccionamos la opción del elemento de numero de paginas como se muestra a continuación
+![[Pasted image 20250428161816.png]]
+y nos mostraría el siguiente resultado
+![[Pasted image 20250428161859.png]]
+tambien podemos ver las opciones preconfiguradas para el encabezado y pie de pagina si vamos a encabezado y pie de pagina
+![[Pasted image 20250428162347.png]]
+y damos clic sobre encabezado podemos ver algunas opciones
+![[Pasted image 20250428162425.png]]
+lo mismo para el pie de pagina, por ultimo tenemos que si queremos que la primer pagina se configure de manera distinta a la segunda o demas paginas vamos a ir a
+![[Pasted image 20250428163229.png]]
+y dar clic en cualquiera de esas opciones
+
+### Video 46: Ajustar elementos de una hoja
+
+En esta lección vamos a aprender a meter toda nuestra información en una sola hoja para cuando se imprime para no tener que imprimir 2 hojas por cada pagina ya que no caben en la misma hoja.
+La primera opción es imprimir de manera horizontal para ello vamos al menú de disposición de pagina>configurar pagina>orientación>horizontal
+![[Pasted image 20250428174551.png]]
+al modificarlo podemos ver que ya cabe la mayoria de la información de las columnas 
+![[Pasted image 20250428175540.png]]
+pero como podemos ver no cabe todo el texto así que no es una opción que resuelva en este caso el problema, así que vamos a regresar a la orientación vertical y vamos a utilizar el 3er icono el cual hace la vista previa del salto de pagina 
+![[Pasted image 20250428175903.png]]
+ahora podremos ver una previsualización de nuestra pagina y sus cortes
+![[Pasted image 20250428180050.png]] 
+y ahora el siguiente paso para que toda la información quepa dentro de la misma pagina simplemente vamos a arrastrar la linea punteada hasta la parte donde terminan los datos
+![[Pasted image 20250428180513.png]]
+y para ver las modificaciones podemos regresar a un opción  de diseño de pagina en la parte inferior derecha, que seria el icono de en medio y así podremos visualizar como se vería y cambio a la hora de imprimir
+![[Pasted image 20250430193952.png]]
+y se visualiza de la siguiente manera
+![[Pasted image 20250430194340.png]]
+aunque aun tenemos el problema de que si visualización como en la vista horizontal, pero esto lo podemos ajustar reduciendo el tamaño de una celda o celdas a como se ve en la siguiente imagen
+![[Pasted image 20250430195816.png]]
+Esto se conoce como escalamiento que también lo podemos modificar en Disposición de pagina>Ajustar área de impresión>Escala
+![[Pasted image 20250430201019.png]]
+Podemos observar que la escala se modifico de manera automática al 70% y lo podemos modificar manualmente para que la información quepa dentro de la pagina
+
+### Video 47: Impresión de títulos
+
+Seguimos con el mismo archivo y si vamos a la sección de archivo y luego la opción de imprimir, veremos algunas opciones que ya hemos manejado pero algunas opciones son nuevas, por ejemplo podemos seleccionar el tipo de impresora 
+![[Pasted image 20250430201548.png]]
+también tenemos mas opciones por ejemplo podemos imprimir la hoja activa, imprimir todo el libro o imprimir una sola selección que ya hemos escogido previamente 
+![[Pasted image 20250430201739.png]]
+de igual manera podemos imprimir solo ciertas paginas, intercalar o no las paginas a la hora de imprimir, la orientación (vertical, horizontal), tipo de hoja a imprimir, margenes, personalizar la escala
+![[Pasted image 20250430202211.png]]
+y por ultimo, si aun queremos mas opciones damos clic en Configurar pagina donde nos va a salir una ventana que contiene casi lo mismo que se ve en la imagen anterior, ahora en una problemática en donde los encabezados de las columnas no se muestran mas que en la primer hoja y nosotros necesitamos que se visualicen en todas las hojas vamos a regresar al archivo, después vamos a disposición de pagina>Configurar pagina>Imprimir títulos
+![[Pasted image 20250430202719.png]]
+cuando damos clic sobre imprimir títulos, nos saldrá una ventana como la siguiente
+![[Pasted image 20250430202846.png]]
+y vamos a dar clic en el icono de la flechita hacia arriba de la opción repetir filas en extremo superior y seleccionamos el renglón que queremos que se repita en la impresión de cada una de las paginas, podemos seleccionar uno o varios renglones, pero en este cazo como solo queremos los títulos de la tabla solo seleccionamos la primer fila
+![[Pasted image 20250430203314.png]]
+y damos enter para seleccionarlo, una vez hecho esto tendremos la vista siguiente en donde podemos dar en aceptar o en vista preliminar
+![[Pasted image 20250430203430.png]]
+si damos clic sobre vista preliminar nos va a llevar al apartado de impresión para poder visualizar los cambios para imprimir los titulos
+![[Pasted image 20250430203619.png]]
+como podemos ver tenemos los títulos en la ultima hoja en donde los datos ya no llenan la hoja completa pero tienen los títulos de cada columna, lo mismo se puede hacer para la parte de repetir las columnas 
